@@ -1,56 +1,58 @@
 #
-# This file contains configuration flags to customize your site
+# في هذا الملف ستجد كل المتغيرات التي تتحكم في إعدادات المدونة، شخصّها على حسب متطلباتك
 #
 
-# Name of your site (displayed in the header)
-name: Your Name
+# اسم المدونة الذي سيظهر في الأعلى
+name: اسم المدونة
 
-# Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+# وصف قصير للمدونة والذي سيظهر تحت اسمها وكجزء من عنوان المدونة في محركات البحث
+description: مدونة جديدة
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
+# رابط صورة المدونة
+# لإستخدام صورة هويتك في GitHub ضع https://github.com/<اسم_المستخدم>.png في المتغير، مثلا لهويتي الشخصية أستخدم:
+# avatar: https://github.com/a3ammar.png
+# ولإخفاء الصورة نهائيًا احذف الرابط من المتغير
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
+
 #
-# Flags below are optional
+# المتغيرات الآتية هي خيارية، عدل عليها إذا أردت تخصيص أكثر للمدونة
 #
 
-# Includes an icon in the footer for each username you enter
+# لكل هوية تضعها هنا ستظهر أيقونة في أسفل المدونة
 footer-links:
   dribbble:
   email:
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: a3ammar/jekyll-now
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: # ضع أي قيمة هنا لتظهر أيقونة RSS
   twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+  stackoverflow: # هويتك في stackoverflow مثلا: "users/50476/bart-kiers"
+  youtube: # إما channel/<عنوان_قناتك_الطويل> أو user/<اسم-مستخدمك>
+  googleplus: # رقم التعريف عندما تزور هويتك (كل ما يتبع plus.google.com/)
 
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
+# ضع الاسم Disqus القصير الخاص بك (الاسم القصير وليس اسم المستخدم) لتفعيل الردود على المدونة
+# ستجد الاسم القصير الخاص بك في إعدادات حسابك في Disqus
 disqus:
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+# إذا أردت تفعيل إحصاءات الزوار في Google Analytics أدخل المعرف الخاص بك (مثلاً UA-2110908-2)
 google_analytics:
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
+# عنوان موقعك مثلاً http://barryclark.github.io
+# يستخدم هذا المتغير في الـRSS والـSitemap.xml
 url:
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
+# إذا كانت المدونة خاصة للصفحات المشاريع في GitHub (http://yourusername.github.io/repository-name مثلاً) عدل هذا المتغير ليطابق اسم المشروع
 baseurl: ""
 
+
 #
-# !! You don't need to change any of the configuration flags below !!
+# هذه المتغيرات خاصة بـJekyll ولا أنصح بتعديلها، لذلك لا حاجة لشرحها
 #
 
 permalink: /:title/
