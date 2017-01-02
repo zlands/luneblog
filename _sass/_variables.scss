@@ -18,6 +18,10 @@ $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 
+$base-font-family: Helvetica, Arial, sans-serif;
+$naskh: Noto Naskh Arabic, $base-font-family;
+$kufi: Noto Kufi Arabic, $base-font-family;
+
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
