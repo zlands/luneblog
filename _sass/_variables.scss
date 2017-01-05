@@ -14,14 +14,10 @@ $lightGray: #eee;
 $white: #fff;
 $red: #dd2b55;
 
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
-
 $base-font-family: Helvetica, Arial, sans-serif;
-$naskh: Noto Naskh Arabic, $base-font-family;
-$kufi: Noto Kufi Arabic, $base-font-family;
+$heading-font: Noto Kufi Arabic, $base-font-family;
+$body-font: Noto Naskh Arabic, $base-font-family;
+$code-font: Kawkab Mono, Bitstream Vera Sans Mono, Courier, monospace;
 
 // Mobile breakpoints
 @mixin mobile {
