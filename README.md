@@ -1,1 +1,1 @@
-ستجد معلومات المشروع وطريقة العمل هنا <https://a3ammar.github.io/arabic-jekyll/about/>
+ستجد معلومات المشروع وطريقة العمل هنا <https://a3ammar.github.io/arabic-jekyll/>
