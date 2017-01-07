@@ -1,5 +1,6 @@
+.highlight, code { direction: ltr; }
+
 .highlight {
-  direction: ltr;
   background-color: #efefef;
   padding: 7px 7px 7px 10px;
   border: 1px solid #ddd;
@@ -14,7 +15,7 @@ code {
   font-family: $code-font;
   font-weight: 400;
   font-size: 14px;
-  unicode-bidi: plaintext;
+  unicode-bidi: embed;
 
   &.highlighter-rouge {
     // specific to inline
