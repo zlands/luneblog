@@ -118,15 +118,16 @@ img {
   margin: 0 auto 1em auto;
 }
 
+blockquote {
+  margin: 1.8em .8em;
+  border-right: 2px solid $gray;
+  padding: 0.1em 1em;
+  color: $gray;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
-}
-
-.date {
-  font-family: $heading-font;
-  text-align: left;
-  color: $gray;
 }
 
 // Specify the color of the selection
@@ -245,6 +246,10 @@ nav {
   }
 }
 
+.not-found {
+  img { width: 400px; }
+}
+
 //
 // .main
 //
@@ -274,19 +279,15 @@ nav {
   }
 }
 
-.not-found {
-  img { width: 400px; }
-}
-
-blockquote {
-  margin: 1.8em .8em;
-  border-right: 2px solid $gray;
-  padding: 0.1em 1em;
-  color: $gray;
-}
-
 .footnotes {
   border-top: 1px solid;
+}
+
+.date {
+  margin-top: 2em;
+  font-family: $heading-font;
+  text-align: left;
+  color: $gray;
 }
 
 .wrapper-footer {
