@@ -283,6 +283,17 @@ nav {
   border-top: 1px solid;
 }
 
+.footnote {
+  font-size: 70%;
+  vertical-align: top;
+}
+
+.reversefootnote {
+  display: inline-block;
+  vertical-align: sub;
+  transform: rotateY(180deg);
+}
+
 .date {
   margin-top: 2em;
   font-family: $heading-font;
