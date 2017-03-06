@@ -25,7 +25,7 @@ body {
   min-height: 100%;
   flex-direction: column;
   background: $white;
-  font: 19px/1.4 $body-font;
+  font: 19px/1.4 $base-font-family;
   line-height: 1.6;
   color: $darkGray;
 }
@@ -38,7 +38,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $heading-font;
   color: $darkerGray;
   font-weight: bold;
 
@@ -206,7 +205,6 @@ blockquote {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $heading-font;
   font-weight: normal;
   font-size: 28px;
 }
@@ -224,7 +222,6 @@ blockquote {
 nav {
   float: left;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $heading-font;
   font-size: 18px;
 
   @include mobile {
@@ -275,7 +272,6 @@ nav {
   }
 
   .read-more {
-    font-family: $heading-font;
     font-size: 15px;
   }
 }
@@ -297,7 +293,6 @@ nav {
 
 .date {
   margin-top: 2em;
-  font-family: $heading-font;
   text-align: left;
   color: $gray;
 }
@@ -312,6 +307,27 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+
+//
+// FOUT fonts
+//
+
+.naskh-font-loaded {
+  body { font-family: $body-font-family; }
+}
+
+.kufi-font-loaded {
+  h1, h2, h3, h4, h5, h6 { font-family: $heading-font-family; }
+  .site-name             { font-family: $heading-font-family; }
+  nav                    { font-family: $heading-font-family; }
+  .read-more             { font-family: $heading-font-family; }
+  .date                  { font-family: $heading-font-family; }
+}
+
+.kawkab-font-loaded {
+  code { font-family: $code-font-family; }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
