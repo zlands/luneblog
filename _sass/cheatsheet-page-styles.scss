@@ -1,4 +1,8 @@
 #cheatsheet {
+  code {
+    unicode-bidi: normal;
+  }
+
   .highlight {
     direction: rtl;
   }
@@ -9,7 +13,5 @@
 
   .language-ruby + .highlighter-rouge .highlight {
     direction: ltr;
-
-    code { unicode-bidi: embed; }
   }
 }
